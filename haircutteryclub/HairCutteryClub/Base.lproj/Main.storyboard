@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HairCutteryClub" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPf-rv-1rE">
+                                <rect key="frame" x="16" y="25" width="313" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="vtt-gZ-rFU"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Hair Cuttery Club">
+                                        <attributes>
+                                            <color key="NSColor" red="0.84232264757156372" green="0.33850038051605225" blue="0.29799973964691162" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="17" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="User Name" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="hL8-yD-lts">
+                                <rect key="frame" x="95" y="279" width="185" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="oUH-cn-9iT"/>
+                                </constraints>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Passcode" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="BcL-4q-LnT">
+                                <rect key="frame" x="95" y="323" width="185" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="L2L-CR-eyD"/>
+                                </constraints>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1oL-6E-e7g">
+                                <rect key="frame" x="174" y="364" width="28" height="48"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Sign In">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name=".SFNSText"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jeW-pL-bBj">
+                                <rect key="frame" x="23" y="448" width="109" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="hKf-li-QSw"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Green Button.png">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Register">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <font key="NSFont" metaFont="system" size="18"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AdobeStock_68538581.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RAz-3g-b9y">
+                                <rect key="frame" x="72" y="63" width="202" height="201"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f8a-vV-s00">
+                                <rect key="frame" x="161" y="447" width="147" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="147" id="HXO-to-9VL"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Red Button.png">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Forgot Passcode?">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="12" name=".SFNSText"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bPf-rv-1rE" secondAttribute="trailing" constant="46" id="1gt-BG-QF3"/>
+                            <constraint firstItem="bPf-rv-1rE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3Sy-6G-7Ia"/>
+                            <constraint firstItem="hL8-yD-lts" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8wY-wD-xDe"/>
+                            <constraint firstItem="hL8-yD-lts" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="Bhm-IP-gc4"/>
+                            <constraint firstItem="jeW-pL-bBj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="23" id="BnS-Jk-fxq"/>
+                            <constraint firstItem="RAz-3g-b9y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="GH8-aO-xhR"/>
+                            <constraint firstItem="jeW-pL-bBj" firstAttribute="centerY" secondItem="f8a-vV-s00" secondAttribute="centerY" id="HpW-Kf-6PT"/>
+                            <constraint firstItem="bPf-rv-1rE" firstAttribute="centerX" secondItem="RAz-3g-b9y" secondAttribute="centerX" id="Lkf-qi-lw3"/>
+                            <constraint firstItem="1oL-6E-e7g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="174" id="SPC-5o-3vd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jeW-pL-bBj" secondAttribute="bottom" constant="189" id="SdD-Fv-wsc"/>
+                            <constraint firstItem="1oL-6E-e7g" firstAttribute="top" secondItem="BcL-4q-LnT" secondAttribute="bottom" constant="11" id="TLK-Pg-SVI"/>
+                            <constraint firstItem="hL8-yD-lts" firstAttribute="leading" secondItem="BcL-4q-LnT" secondAttribute="leading" id="URa-Ma-isd"/>
+                            <constraint firstItem="f8a-vV-s00" firstAttribute="top" secondItem="1oL-6E-e7g" secondAttribute="bottom" constant="35" id="Um7-oq-ShR"/>
+                            <constraint firstItem="hL8-yD-lts" firstAttribute="top" secondItem="RAz-3g-b9y" secondAttribute="bottom" constant="15" id="VEC-ih-u8R"/>
+                            <constraint firstItem="RAz-3g-b9y" firstAttribute="top" secondItem="bPf-rv-1rE" secondAttribute="bottom" constant="6" id="XeJ-g9-atP"/>
+                            <constraint firstItem="bPf-rv-1rE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="Xuj-5B-ghM"/>
+                            <constraint firstItem="BcL-4q-LnT" firstAttribute="top" secondItem="hL8-yD-lts" secondAttribute="bottom" constant="14" id="amd-rP-ScW"/>
+                            <constraint firstItem="jeW-pL-bBj" firstAttribute="top" secondItem="BcL-4q-LnT" secondAttribute="bottom" constant="95" id="eXi-DX-OdQ"/>
+                            <constraint firstItem="BcL-4q-LnT" firstAttribute="centerX" secondItem="1oL-6E-e7g" secondAttribute="centerX" id="lxV-ZN-aqt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="f8a-vV-s00" secondAttribute="bottom" constant="188" id="rIg-5R-Z6l"/>
+                            <constraint firstItem="hL8-yD-lts" firstAttribute="trailing" secondItem="BcL-4q-LnT" secondAttribute="trailing" id="sEW-50-y2E"/>
+                            <constraint firstItem="f8a-vV-s00" firstAttribute="leading" secondItem="jeW-pL-bBj" secondAttribute="trailing" constant="29" id="sGJ-QA-DTu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f8a-vV-s00" secondAttribute="trailing" constant="67" id="ttu-gx-CAQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="ForgotPasscode" destination="f8a-vV-s00" id="pay-3y-izL"/>
+                        <outlet property="HCCTitle" destination="bPf-rv-1rE" id="DjN-uw-rg8"/>
+                        <outlet property="Register" destination="jeW-pL-bBj" id="p8F-Ln-cMy"/>
+                        <outlet property="SignIn" destination="1oL-6E-e7g" id="07g-yg-KHi"/>
+                        <outlet property="SigninPasscode" destination="BcL-4q-LnT" id="u1A-9m-KZu"/>
+                        <outlet property="SigninUserName" destination="hL8-yD-lts" id="iHo-uL-vMB"/>
+                        <outlet property="StartupLogo" destination="RAz-3g-b9y" id="dHl-wE-o3v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AdobeStock_68538581.jpg" width="2941" height="2848"/>
+        <image name="Green Button.png" width="418" height="75"/>
+        <image name="Red Button.png" width="421" height="80"/>
+    </resources>
+</document>

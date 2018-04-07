@@ -1,6 +1,6 @@
 //
-//  DataViewController.swift
-//  haircutteryclub
+//  ViewController.swift
+//  HairCutteryClub
 //
 //  Created by Faizuddin Shaik on 3/18/18.
 //  Copyright © 2018 GlintHub. All rights reserved.
@@ -8,11 +8,7 @@
 
 import UIKit
 
-class DataViewController: UIViewController {
-
-    @IBOutlet weak var dataLabel: UILabel!
-    var dataObject: String = ""
-
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,11 +20,13 @@ class DataViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.dataLabel!.text = dataObject
-    }
-
-
+    @IBOutlet weak var HCCTitle: UILabel!
+    @IBOutlet weak var SigninPasscode: UITextField!
+    @IBOutlet weak var SigninUserName: UITextField!
+    @IBOutlet weak var SignIn: UIButton!
+    @IBOutlet weak var Register: UIButton!
+    @IBOutlet weak var ForgotPasscode: UIButton!
+    @IBOutlet weak var StartupLogo: UIImageView!
+    
 }
 
